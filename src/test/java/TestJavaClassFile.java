@@ -4,4 +4,5 @@ public class TestJavaClassFile {
 
     // This is change from Friday.
     //thats awesome
+    //more comments from Andrei
 }
