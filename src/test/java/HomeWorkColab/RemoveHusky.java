@@ -43,7 +43,18 @@ public class RemoveHusky {
         dogs.addAll(Arrays.asList(dog1,dog2,dog3,dog4,dog5,dog6,dog7,dog8,dog9,dog10));
 
 
+
         //Collections.replaceAll(dogs,"Husky","");
+
+        // if(dogs.contains("Husky")){
+
+        // }
+
+        //for (Object each : dogs) {
+
+        //}
+
+
 
 
 
