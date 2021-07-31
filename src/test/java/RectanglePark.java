@@ -13,8 +13,8 @@ public class RectanglePark {
        // rect.calculateArea();
        // rect.calculatePerimeter();
 
-        //Make Funtion that:
-        //if Rwidth and RLength are equal then s.out square
+        //Make Function that:
+        //if rWidth and rLength are equal then s.out square
 
 
         rect.getInfo();
