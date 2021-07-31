@@ -39,9 +39,11 @@ public class RemoveHusky {
 
 
         //Array List
+        /*
         ArrayList<Object> dogs = new ArrayList<>();
         dogs.addAll(Arrays.asList(dog1,dog2,dog3,dog4,dog5,dog6,dog7,dog8,dog9,dog10));
-
+        dogs.removeIf(p-> p.dog !=)
+         */
 
 
         //Collections.replaceAll(dogs,"Husky","");
