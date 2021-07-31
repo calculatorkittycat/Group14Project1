@@ -1,4 +1,6 @@
-//Ivan
+package HomeWorkColab;//Ivan
+import HomeWorkColab.Rectangle;
+
 import java.util.Scanner;
 
 public class RectanglePark {

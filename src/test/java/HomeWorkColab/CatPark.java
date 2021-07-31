@@ -1,4 +1,6 @@
+package HomeWorkColab;
 
+import HomeWorkColab.Cat;
 
 public class CatPark {
     public static void main(String[] args) {
@@ -7,7 +9,7 @@ public class CatPark {
 
         Cat cat1 = new Cat();
         cat1.setInfo("Whiskers","Russian Blue",13,"Loner",
-                "Outdoor Cat","Dark Grey","Male");
+                "Outdoor HomeWorkColab.Cat","Dark Grey","Male");
 
         cat1.getInfo();
 

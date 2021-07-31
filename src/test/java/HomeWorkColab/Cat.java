@@ -1,3 +1,5 @@
+package HomeWorkColab;
+
 public class Cat {
 
     public String name;

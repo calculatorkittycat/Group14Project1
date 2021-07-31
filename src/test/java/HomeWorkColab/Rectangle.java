@@ -1,3 +1,5 @@
+package HomeWorkColab;
+
 //Ivan
 public class Rectangle {
 
@@ -23,7 +25,7 @@ public class Rectangle {
     }
 
     public void getInfo(){
-        System.out.println("Rectangle Dimensions");
+        System.out.println("HomeWorkColab.Rectangle Dimensions");
         System.out.println("Width : " + width);
         System.out.println("Length : " + length );
         System.out.println("Area : " + area);
