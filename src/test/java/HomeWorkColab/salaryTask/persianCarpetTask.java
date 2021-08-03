@@ -1,5 +1,5 @@
 package HomeWorkColab.salaryTask;
-
+//HI IGOR!!!
 public class persianCarpetTask {
 
     public int width;
