@@ -14,11 +14,17 @@ public class persianCarpetTask {
         this.isPersian = isPersian;
     }
 
-    public double calcCost(){
-        double calcCost = (width*length)*unitPrice;
-        System.out.println("based on carpet dimensions, the price is" + calcCost);
-        return calcCost;
-}
+    public double calcCost() {
+        if (isPersian == true) {
+            double calcCost = 200 + ((width * length) * unitPrice);
+            System.out.println("carpet is persian, so thats why is expensive: " + calcCost);
+            return calcCost;
+        } else {
+            double calcCost = (width * length) * unitPrice;
+            System.out.println("based on carpet dimensions, the price is " + calcCost);
+            return calcCost;
+        }
+    }
 
     public String toString() {
         return "persianCarpetTask{" +
@@ -39,6 +45,7 @@ public class persianCarpetTask {
                         customOrder(): sets the carpet' width, length, unitprice, & isParsian
                         calcCost(): should be able to caculate the total cost of the carpet and return it as double
                         toString(): should be able to display all the info of the carpet including the total cost of the carpet as calculated by calcCost()
+
 
             total price of carpet = (width*length)*unitprice
 
