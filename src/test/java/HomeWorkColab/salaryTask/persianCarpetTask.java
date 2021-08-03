@@ -1,6 +1,33 @@
 package HomeWorkColab.salaryTask;
 
 public class persianCarpetTask {
+
+    public int width;
+    public int length;
+    public double unitPrice;
+    public boolean isPersian;
+
+    public void setInfo(int width, int length, double unitPrice, boolean isPersian) {
+        this.width = width;
+        this.length = length;
+        this.unitPrice = unitPrice;
+        this.isPersian = isPersian;
+    }
+
+    public double calcCost(){
+        double calcCost = (width*length)*unitPrice;
+        System.out.println("based on carpet dimensions, the price is" + calcCost);
+        return calcCost;
+}
+
+    public String toString() {
+        return "persianCarpetTask{" +
+                "width=" + width +
+                ", length=" + length +
+                ", unitPrice=" + unitPrice +
+                ", isPersian=" + isPersian +
+                '}';
+    }
     /*
  Carpet Task:
     	create a custom class for the Carpet class that should contain the following:
@@ -25,4 +52,5 @@ public class persianCarpetTask {
 
                     use for each loop to print out all the persian carpets
  */
+
 }
