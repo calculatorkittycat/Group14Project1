@@ -36,7 +36,7 @@ public class Tester {
                 ", jobTitle='" + jobTitle + '\'' +
                 ", salary=" + salary +
                 '}';
-    }
+    }//
 }
 
 /*
