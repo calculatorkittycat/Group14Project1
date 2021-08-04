@@ -1,5 +1,7 @@
 package HomeWorkColab.scrumHomework;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 public class Tester {
 
     public String name;
@@ -19,7 +21,22 @@ public class Tester {
         System.out.println(name + "is smoke Testing");
     }
 
-    public void creatingTitcket()
+    public void creatingTitcket(){
+        System.out.println(name + "is creating a ticket");
+    }
+
+    public void dailyStandUp(){
+        System.out.println(name + " is in their daily stand up meeting");
+    }
+
+    public String toString() {
+        return "Tester{" +
+                "name='" + name + '\'' +
+                ", employeeID=" + employeeID +
+                ", jobTitle='" + jobTitle + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
 }
 
 /*
