@@ -8,7 +8,18 @@ public class Tester {
     public double salary;
 
 
+    public void setInfo(String name, int employeeID, String jobTitle, double salary) {
+        this.name = name;
+        this.employeeID = employeeID;
+        this.jobTitle = jobTitle;
+        this.salary = salary;
+    }
 
+    public void smokeTesting(){
+        System.out.println(name + "is smoke Testing");
+    }
+
+    public void creatingTitcket()
 }
 
 /*
