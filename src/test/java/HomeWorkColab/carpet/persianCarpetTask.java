@@ -1,4 +1,4 @@
-package HomeWorkColab.salaryTask;
+package HomeWorkColab.carpet;
 //HI IGOR!!!
 public class persianCarpetTask {
 

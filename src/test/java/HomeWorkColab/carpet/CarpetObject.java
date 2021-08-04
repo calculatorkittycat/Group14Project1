@@ -1,4 +1,4 @@
-package HomeWorkColab.salaryTask;
+package HomeWorkColab.carpet;
 
 import java.util.ArrayList;
 import java.util.Arrays;
