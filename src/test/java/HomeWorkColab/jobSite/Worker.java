@@ -5,6 +5,7 @@ public class Worker {
     private final String name;
     public final static boolean hasTools, hasVan;
     public final static double gasPrice;
+    public String tools;
     public boolean isContractor;                     //to make private or public all?
     public boolean isEmployee;
 
@@ -37,6 +38,8 @@ public class Worker {
 
 
 
+
+
 }
 /*
 payRate
@@ -45,4 +48,6 @@ hoursPerWeek
 gasPrice
 isContractor // If true, must pay 10000$ per year tax
 isEmployee // if true must pay 11% tax per pay check
+
+////
  */
