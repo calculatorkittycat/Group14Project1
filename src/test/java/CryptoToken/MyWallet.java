@@ -11,7 +11,9 @@ public class MyWallet {
         Ethereum ethereum = new Ethereum(321,321,321,321,321,true);
         ChainLink chainLink = new ChainLink(321,321,321,321,321,false);
 
-        bitCoin.totalPrice()+liteCoin.totalPrice()+chainLink+ bitCoin.totalPrice(
+        double total = bitCoin.totalPrice()+liteCoin.totalPrice()+chainLink.totalPrice()+ethereum.totalPrice()+xrp.totalPrice();
+
+        System.out.println(total);
 
     }
 }
