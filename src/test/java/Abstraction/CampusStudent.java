@@ -10,4 +10,7 @@ public class CampusStudent extends Student {
         int a = 10;
 
     }
+
+int a = 5;
+
 }
